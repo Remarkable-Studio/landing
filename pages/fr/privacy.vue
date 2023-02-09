@@ -6,7 +6,7 @@
   <div class="container mx-auto max-w-3xl p-10">
     <!-- <a href="/"><img src="~/assets/img/logo_black.svg" alt="Logo Short Cam" class="mb-4 md:mb-8 w-52 md:w-64" /></a> -->
     <NuxtLink :to="localePath('/')">
-      <img src="~/assets/img/logo_black.svg" alt="Logo Short Cam" class="mb-4 md:mb-8 w-52 md:w-64" />
+      <img src="../../asset/img/logo_black.svg" alt="Logo Short Cam" class="mb-4 md:mb-8 w-52 md:w-64" />
     </NuxtLink>
 
     <h1>Terms & Privacy FR</h1>

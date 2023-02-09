@@ -4,7 +4,7 @@
 
 <template>
   <div class="container mx-auto max-w-3xl p-10">
-    <a href="/"><img src="~/assets/img/logo_black.svg" alt="Logo Short Cam" class="mb-4 md:mb-8 w-52 md:w-64" /></a>
+    <a href="/"><img src="../asset/img/logo_black.svg" alt="Logo Short Cam" class="mb-4 md:mb-8 w-52 md:w-64" /></a>
     <h1>Terms & Privacy</h1>
     <h2>Terms of Service</h2>
     <h3>Introduction</h3>
