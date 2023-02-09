@@ -9,8 +9,8 @@
       <img src="../../asset/img/logo_black.svg" alt="Logo Short Cam" class="mb-4 md:mb-8 w-52 md:w-64" />
     </NuxtLink>
 
-    <h1>Terms & Privacy</h1>
-    <h2>Terms of Service</h2>
+    <h1>Conditions et confidentialité</h1>
+    <h2>Conditions d'utilisation</h2>
     <h3>Introduction</h3>
     <p>Bienvenue dans notre application de caméra et d'édition vidéo. En utilisant l'application, vous acceptez ces termes et conditions (les "Conditions"). Si vous n'acceptez pas les Conditions, vous ne pouvez pas utiliser l'application.</p>
     
@@ -37,7 +37,7 @@
     <p>Nous ne partagerons aucune information collectée à travers l'application avec une tierce partie.</p>
 
     <h3>Modifications de la politique de confidentialité</h3>
-    <p>Nous pouvons mettre à jour cette politique de confidentialité de temps en temps. La dernière version de la politique de confidentialité sera toujours disponible sur notre site shortcam.app.</p>
+    <p>Nous pouvons mettre à jour cette politique de confidentialité de temps en temps. La dernière version de la politique de confidentialité sera toujours disponible sur notre site shortcam.app</p>
 
   </div>  
 </template>

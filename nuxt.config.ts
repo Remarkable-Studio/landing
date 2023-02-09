@@ -26,7 +26,7 @@ export default defineNuxtConfig({
         fr: {
           title1: 'Capture, Joue, Edite & Partage',
           title2: 'Tes Moments Depuis Le Même Endroit',
-          privacy: 'Conditions générales'
+          privacy: 'Conditions et confidentialité'
         }
       }
     }
