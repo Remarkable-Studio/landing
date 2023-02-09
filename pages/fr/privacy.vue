@@ -9,27 +9,36 @@
       <img src="../../asset/img/logo_black.svg" alt="Logo Short Cam" class="mb-4 md:mb-8 w-52 md:w-64" />
     </NuxtLink>
 
-    <h1>Terms & Privacy FR</h1>
+    <h1>Terms & Privacy</h1>
     <h2>Terms of Service</h2>
     <h3>Introduction</h3>
-    <p>Welcome to our camera and video editing app. By using the app, you agree to these terms and conditions (the "Terms"). If you do not agree to the Terms, you may not use the app.</p>
-    <h3>Use of the App</h3>
-    <p>You may use the app for lawful purposes only. You may not use the app for any illegal or unauthorized purpose. You must not, in the use of the app, violate any laws in your jurisdiction (including but not limited to copyright or trademark laws).</p>
-    <h3>User Content</h3>
-    <p>You retain all rights to the content you make available through the app. We do not collect any user data. By making any user content available through the app, you remain solely responsible for such content and we do not gain any rights or license to it.</p>
-    <h3>Disclaimers</h3>
-    <p>The app is provided on an "AS IS" and "AS AVAILABLE" basis. We do not guarantee the app will be uninterrupted or error-free.</p>
-    <h3>Limitation of Liability</h3>
-    <p>To the fullest extent permitted by law, we will not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from (a) your access to or use of or inability to access or use the app; (b) any conduct or content of any third party on the app; (c) any content obtained from the app; or (d) unauthorized access, use, or alteration of your transmissions or content.</p>
-    <h2>Privacy Policy</h2>
+    <p>Bienvenue dans notre application de caméra et d'édition vidéo. En utilisant l'application, vous acceptez ces termes et conditions (les "Conditions"). Si vous n'acceptez pas les Conditions, vous ne pouvez pas utiliser l'application.</p>
+    
+    <h3>Utilisation de l'application</h3>
+    <p>Vous pouvez utiliser l'application à des fins licites uniquement. Vous ne pouvez pas utiliser l'application à des fins illégales ou non autorisées. Vous ne devez pas, dans l'utilisation de l'application, violer les lois de votre juridiction (y compris, mais sans s'y limiter, les lois sur le droit d'auteur ou les marques commerciales).</p>
+
+    <h3>Contenu de l'utilisateur</h3>
+    <p>Vous conservez tous les droits sur le contenu que vous rendez disponible à travers l'application. Nous ne collectons aucune donnée utilisateur. En rendant tout contenu utilisateur disponible à travers l'application, vous restez seul responsable de ce contenu et nous n'acquérons aucun droit ni licence à ce sujet.</p>
+    
+    <h3>Avertissements</h3>
+    <p>L'application est fournie "EN L'ÉTAT" et "TELLE QU'ELLE EST DISPONIBLE". Nous ne garantissons pas que l'application sera ininterrompue ou exempte d'erreurs.</p>
+
+    <h3>Limitation de responsabilité</h3>
+    <p>Dans la mesure maximale permise par la loi, nous ne serons pas responsables de tout dommage indirect, accessoire, spécial, consécutif ou punitif, ou de toute perte de bénéfices ou de revenus, subis directement ou indirectement, ou de toute perte de données, d'utilisation, de bonne volonté ou autres pertes immatérielles, résultant de (a) votre accès ou utilisation de l'application ou de votre incapacité à y accéder ou à l'utiliser; (b) tout comportement ou tout contenu de tout tiers sur l'application; (c) tout contenu obtenu à partir de l'application; ou (d) un accès non autorisé, une utilisation ou une altération de vos transmissions ou de votre contenu.</p>
+
+    <h2>Politique de confidentialité</h2>
     <h3>Introduction</h3>
-    <p>We take the privacy of our users seriously. This Privacy Policy explains how we collect, use, and share information through our camera and video editing app.</p>
-    <h3>Information Collection</h3>
-    <p>We do not collect any personal information from our users. The app does not access the device's camera roll or store any images or videos taken with the app on the device.</p>
-    <h3>Sharing of Information</h3>
-    <p>We will not share any information collected through the app with any third party.</p>
-    <h3>Changes to Privacy Policy</h3>
-    <p>We may update this Privacy Policy from time to time. The latest version of the Privacy Policy will always be available on our app.</p>
+    <p>Nous prenons la vie privée de nos utilisateurs au sérieux. Cette politique de confidentialité explique comment nous collectons, utilisons et partageons les informations à travers notre application de caméra et d'édition vidéo.</p>
+    
+    <h3>Collecte d'informations</h3>
+    <p>Nous ne collectons aucune information personnelle de nos utilisateurs. L'application n'accède pas au carnet de caméra de l'appareil ni ne stocke aucune image ou vidéo prise avec l'application sur l'appareil.</p>
+
+    <h3>Partage d'informations</h3>
+    <p>Nous ne partagerons aucune information collectée à travers l'application avec une tierce partie.</p>
+
+    <h3>Modifications de la politique de confidentialité</h3>
+    <p>Nous pouvons mettre à jour cette politique de confidentialité de temps en temps. La dernière version de la politique de confidentialité sera toujours disponible sur notre site shortcam.app.</p>
+
   </div>  
 </template>
 

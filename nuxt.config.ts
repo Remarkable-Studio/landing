@@ -20,11 +20,13 @@ export default defineNuxtConfig({
       messages: {
         en: {
           title1: 'Capture, Play, Edit & Share',
-          title2: 'Your Moments From The Same Place'
+          title2: 'Your Moments From The Same Place',
+          privacy: 'Terms & Privacy'
         },
         fr: {
           title1: 'Capture, Joue, Edite & Partage',
-          title2: 'Tes Moments Depuis Le Même Endroit'
+          title2: 'Tes Moments Depuis Le Même Endroit',
+          privacy: 'Conditions générales'
         }
       }
     }

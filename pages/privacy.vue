@@ -25,7 +25,7 @@
     <h3>Sharing of Information</h3>
     <p>We will not share any information collected through the app with any third party.</p>
     <h3>Changes to Privacy Policy</h3>
-    <p>We may update this Privacy Policy from time to time. The latest version of the Privacy Policy will always be available on our app.</p>
+    <p>We may update this Privacy Policy from time to time. The latest version of the Privacy Policy will always be available on our website shortcam.app</p>
   </div>  
 </template>
 
