@@ -58,8 +58,8 @@ const localePath = useLocalePath();
 <i18n lang="yaml">
 en:
     title: Capture, Play, Edit & Share
-    subtitle: Your Moments From The Same Place
+    subtitle: Your Stories From The Same Place
 fr:
     title: Capture, Joue, Édite & Partage
-    subtitle: Tes Moments Depuis Le Même Endroit
+    subtitle: Tes Histoires Depuis Le Même Endroit
 </i18n>
