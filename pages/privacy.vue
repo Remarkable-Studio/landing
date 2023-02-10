@@ -1,16 +1,20 @@
 <script setup>
 const { t } = useI18n({ useScope: 'local' })
+const localePath = useLocalePath();
+
 useServerSeoMeta({
-  title: 'Short Cam',
-  ogTitle: 'Short Cam',
-  description: 'Capture, Play, Edit & Share Your Moments From The Same Place',
-  ogDescription: 'Capture, Play, Edit & Share Your Moments From The Same Place',
+  title: t('metadata.title'),
+  ogTitle: t('metadata.ogTitle'),
 })
 </script>
 
 <template>
   <div class="container mx-auto max-w-3xl p-10">
-    <a href="/"><img src="../assets/img/logo_black.svg" alt="Logo Short Cam" class="mb-4 md:mb-8 w-52 md:w-64" /></a>
+
+    <NuxtLink :to="localePath('/')">
+      <img src="../assets/img/logo_black.svg" alt="Logo Short Cam" class="mb-4 md:mb-8 w-52 md:w-64" />
+    </NuxtLink>
+
     <h1 class="text-3xl md:text-5xl font-display py-6">{{ t('title') }}</h1>
 
     <!-- Terms of Service -->
@@ -54,6 +58,9 @@ useServerSeoMeta({
 
 <i18n lang="yaml">
 en:
+  metadata.title: Short Cam | Terms & Privacy
+  metadata.ogTitle: Short Cam | Terms & Privacy
+
   title: Terms & Privacy
 
   terms.title: Terms & Privacy
@@ -114,6 +121,9 @@ en:
 
   updatedat: "Last Updated: February 10, 2023."
 fr:
+  metadata.title: Short Cam | Conditions générales & Politique de confidentialité
+  metadata.ogTitle: Short Cam | Conditions générales & Politique de confidentialité
+
   title: Conditions générales & Politique de confidentialité
 
   terms.title: Conditions générales

@@ -6,10 +6,10 @@ const { t } = useI18n({ useScope: 'local' })
 const localePath = useLocalePath();
 
 useServerSeoMeta({
-  title: 'Short Cam',
-  ogTitle: 'Short Cam',
-  description: 'Capture, Play, Edit & Share Your Moments From The Same Place',
-  ogDescription: 'Capture, Play, Edit & Share Your Moments From The Same Place',
+    title: t('metadata.title'),
+    ogTitle: t('metadata.ogTitle'),
+    description: t('metadata.description'),
+    ogDescription: t('metadata.ogDescription'),
 })
 </script>
 
@@ -65,9 +65,19 @@ useServerSeoMeta({
 
 <i18n lang="yaml">
 en:
+    metadata.title: Short Cam - Camera Editor App
+    metadata.ogTitle: Short Cam - Camera Editor App
+    metadata.description: Capture, Play, Edit & Share Your Moments From The Same Place
+    metadata.ogDescription: Capture, Play, Edit & Share Your Moments From The Same Place
+    
     title: Capture, Play, Edit & Share
     subtitle: Your Moments From The Same Place
 fr:
+    metadata.title: Short Cam - Capture et édition vidéo
+    metadata.ogTitle: Short Cam - Capture et édition vidéo
+    metadata.description: Capture, Joue, Édite & Partage Tes Moments Depuis Le Même Endroit
+    metadata.ogDescription: Capture, Joue, Édite & Partage Tes Moments Depuis Le Même Endroit
+
     title: Capture, Joue, Édite & Partage
     subtitle: Tes Moments Depuis Le Même Endroit
 </i18n>
