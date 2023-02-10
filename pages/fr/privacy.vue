@@ -1,5 +1,11 @@
 <script setup>
 const localePath = useLocalePath();
+useServerSeoMeta({
+  title: 'Short Cam',
+  ogTitle: 'Short Cam',
+  description: 'Capture, Play, Edit & Share Your Moments From The Same Place',
+  ogDescription: 'Capture, Play, Edit & Share Your Moments From The Same Place',
+})
 </script>
 
 <template>
