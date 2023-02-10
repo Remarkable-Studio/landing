@@ -11,7 +11,10 @@ const localePath = useLocalePath();
         <h1 class="text-5xl font-display py-6">
             Conditions et confidentialité
         </h1>
+
+        <!-- Terms -->
         <h2 class="text-3xl font-display py-4">Conditions d'utilisation</h2>
+
         <h3 class="text-lg font-body pt-3 pb-1">Introduction</h3>
         <p class="text-gray-600 py-1">
             Bienvenue dans notre application de caméra et d'édition vidéo. En
@@ -48,9 +51,7 @@ const localePath = useLocalePath();
             ininterrompue ou exempte d'erreurs.
         </p>
 
-        <h3 class="text-lg font-body pt-3 pb-1">
-            Limitation de responsabilité
-        </h3>
+        <h3 class="text-lg font-body pt-3 pb-1">Limitation de responsabilité</h3>
         <p class="text-gray-600 py-1">
             Dans la mesure maximale permise par la loi, nous ne serons pas
             responsables de tout dommage indirect, accessoire, spécial,
@@ -65,7 +66,23 @@ const localePath = useLocalePath();
             contenu.
         </p>
 
+        <h3 class="text-lg font-body pt-3 pb-1">Modifications</h3>
+        <p class="text-gray-600 py-1">
+            Nous nous réservons le droit de modifier ces Conditions d'utilisation, y compris la Politique de
+            confidentialité, à tout
+            moment, à notre seule discrétion. Si nous apportons des changements aux Conditions d'utilisation ou à la
+            Politique de confidentialité, nous mettrons à jour la date de "Dernière mise à jour" ci-dessous. Votre
+            utilisation continue de l'application après la publication de tout changement aux Conditions d'utilisation
+            ou à la politique de confidentialité constitue l'acceptation de ces changements. Si vous n'êtes pas d'accord
+            avec les nouvelles Conditions d'utilisation
+            ou la nouvelle Politique de confidentialité, vous devez arrêter d'utiliser l'application. Il est de votre
+            responsabilité de vérifier périodiquement les Conditions d'utilisation ou la Politique de confidentialité
+            pour être informé de tout changement.
+        </p>
+
+        <!-- Privacy -->
         <h2 class="text-3xl font-display py-4">Politique de confidentialité</h2>
+
         <h3 class="text-lg font-body pt-3 pb-1">Introduction</h3>
         <p class="text-gray-600 py-1">
             Nous prenons la vie privée de nos utilisateurs au sérieux. Cette
@@ -88,13 +105,13 @@ const localePath = useLocalePath();
             l'application avec une tierce partie.
         </p>
 
-        <h3 class="text-lg font-body pt-3 pb-1">
-            Modifications de la politique de confidentialité
-        </h3>
+        <h3 class="text-lg font-body pt-3 pb-1">Modifications de la politique de confidentialité</h3>
         <p class="text-gray-600 py-1">
             Nous pouvons mettre à jour cette politique de confidentialité de
             temps en temps. La dernière version de la politique de
             confidentialité sera toujours disponible sur notre site shortcam.app
         </p>
+
+        <p class="text-gray-600 mt-16">Dernière mise à jour: 10 février 2023.</p>
     </div>
 </template>

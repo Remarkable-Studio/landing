@@ -5,8 +5,11 @@
 <template>
   <div class="container mx-auto max-w-3xl p-10">
     <a href="/"><img src="../assets/img/logo_black.svg" alt="Logo Short Cam" class="mb-4 md:mb-8 w-52 md:w-64" /></a>
-    <h1 class="text-5xl font-display py-6">Terms & Privacy</h1>
+    <h1 class="text-5xl font-display py-6">{{ $t('title') }}</h1>
+
+    <!-- Terms of Service -->
     <h2 class="text-3xl font-display py-4">Terms of Service</h2>
+
     <h3 class="text-lg font-body pt-3 pb-1">Introduction</h3>
     <p class="text-gray-600 py-1">
       Welcome to our camera and video editing app. By using the app, you agree to these
@@ -43,7 +46,18 @@
       or content.
     </p>
 
+    <h3 class="text-lg font-body pt-3 pb-1">Modifications</h3>
+    <p class="text-gray-600 py-1">
+      We reserve the right to modify these Terms, including Privacy Policy, at any time, in our sole discretion. If we
+      make changes to the Terms or Privacy Policy, we will update the "Last Updated" date below. Your continued use of
+      the app following the posting of any changes to the Terms or Privacy Policy constitutes acceptance of those
+      changes. If you do not agree to the modified Terms or Privacy Policy, you must stop using the app. It is your
+      responsibility to periodically review the Terms or Privacy Policy to stay informed of any changes.
+    </p>
+
+    <!-- Privacy Policy -->
     <h2 class="text-3xl font-display py-4">Privacy Policy</h2>
+
     <h3 class="text-lg font-body pt-3 pb-1">Introduction</h3>
     <p class="text-gray-600 py-1">
       We take the privacy of our users seriously. This Privacy Policy explains how we
@@ -61,10 +75,20 @@
       We will not share any information collected through the app with any third party.
     </p>
 
-    <h3 class="text-lg font-body pt-3 pb-1">Changes to Privacy Policy</h3>
-    <p class="text-gray-600 py-1">
-      We may update this Privacy Policy from time to time. The latest version of the Privacy
-      Policy will always be available on our website shortcam.app
-    </p>
+    <p class="text-gray-600 mt-16">Last Updated: February 10, 2023.</p>
   </div>
 </template>
+
+<i18n>
+{
+  "en": {
+    "title": "Terms & Privacy",
+    "terms.title": "Terms of Service",
+    "terms.intro.title": "Introduction",
+    "termes.intro.text": "Welcome to our camera and video editing app. By using the app, you agree to these terms and conditions (the \"Terms\"). If you do not agree to the Terms, you may not use the app.",
+  },
+  "fr": {
+    "title": "Conditions et confidentialité"
+  }
+}
+</i18n>

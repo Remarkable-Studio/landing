@@ -6,11 +6,13 @@ export default defineNuxtConfig({
     },
     css: ["@/assets/fonts.css"],
     i18n: {
+        vueI18nLoader: true,
         locales: ["en", "fr"],
         defaultLocale: "en",
         strategy: "prefix_except_default",
         detectBrowserLanguage: {
             useCookie: false,
+            alwaysRedirect: true,
         },
         vueI18n: {
             legacy: false,
