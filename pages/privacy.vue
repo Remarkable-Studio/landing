@@ -21,7 +21,7 @@ definePageMeta({
       <h2 class="text-2xl md:text-3xl font-display py-4">{{ t('terms.title') }}</h2>
 
       <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.intro.title') }}</h3>
-      <p class="text-gray-600 py-1">{{ t('terms.intro.body') }}}</p>
+      <p class="text-gray-600 py-1">{{ t('terms.intro.body') }}</p>
 
       <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.use.title') }}</h3>
       <p class="text-gray-600 py-1">{{ t('terms.use.body') }}</p>
@@ -31,9 +31,6 @@ definePageMeta({
 
       <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.disclaimer.title') }}</h3>
       <p class="text-gray-600 py-1">{{ t('terms.disclaimer.body') }}</p>
-
-      <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.limitation.title') }}</h3>
-      <p class="text-gray-600 py-1">{{ t('terms.limitation.body') }}</p>
 
       <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.modification.title') }}</h3>
       <p class="text-gray-600 py-1">{{ t('terms.modification.body') }}</p>
@@ -83,9 +80,6 @@ en:
   terms.disclaimer.body: >
     The app is provided on an "AS IS" and "AS AVAILABLE" basis. We do not guarantee the
     app will be uninterrupted or error-free.
-
-  terms.limitation.title: Limitation of Liability
-  terms.limitation.body: >
     To the fullest extent permitted by law, we will not be liable for any indirect,
     incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred
     directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from (a) your
@@ -144,9 +138,6 @@ fr:
   terms.disclaimer.body: >
     L'application est fournie "EN L'ÉTAT" et "TELLE QU'ELLE EST DISPONIBLE". Nous ne garantissons pas que l'application
     sera ininterrompue ou exempte d'erreurs.
-
-  terms.limitation.title: Limitation de responsabilité
-  terms.limitation.body: >
     Dans la mesure permise par la loi, nous ne serons pas responsables de tout dommage indirect, accessoire, spécial,
     consécutif ou punitif, ou de toute perte de profits ou de revenus, qu'elle soit subie directement ou indirectement,
     ou de toute perte de données, d'utilisation, de bonne volonté ou d'autres pertes intangibles, résultant de (a)
