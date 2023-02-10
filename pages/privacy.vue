@@ -4,7 +4,7 @@
 
 <template>
   <div class="container mx-auto max-w-3xl p-10">
-    <a href="/"><img src="../asset/img/logo_black.svg" alt="Logo Short Cam" class="mb-4 md:mb-8 w-52 md:w-64" /></a>
+    <a href="/"><img src="../assets/img/logo_black.svg" alt="Logo Short Cam" class="mb-4 md:mb-8 w-52 md:w-64" /></a>
     <h1 class="text-5xl font-display py-6">Terms & Privacy</h1>
     <h2 class="text-3xl font-display py-4">Terms of Service</h2>
     <h3 class="text-lg font-body pt-3 pb-1">Introduction</h3>
