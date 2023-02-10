@@ -23,8 +23,8 @@ en:
     meta.ogDescription: Capture, Play, Edit & Share Your Moments From The Same Place
 
 fr:
-    meta.title: Short Cam - Capture et édition vidéo
-    meta.ogTitle: Short Cam - Capture et édition vidéo
+    meta.title: Short Cam - Capture et édition de vidéo
+    meta.ogTitle: Short Cam - Capture et édition de vidéo
     meta.description: Capture, Joue, Édite & Partage Tes Moments Depuis Le Même Endroit
     meta.ogDescription: Capture, Joue, Édite & Partage Tes Moments Depuis Le Même Endroit
 </i18n>

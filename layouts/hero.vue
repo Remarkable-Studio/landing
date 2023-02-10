@@ -21,13 +21,13 @@
 }
 
 .blur-red {
-    position: "absolute";
+    position: "absolute" !important;
     top: 0;
     left: 0;
 }
 
 .blur-yellow {
-    position: "absolute";
+    position: "absolute" !important;
     bottom: 0;
     left: 0;
 }
