@@ -1,20 +1,12 @@
 <script setup>
-import DefaultLayout from "../layouts/DefaultLayout.vue";
-import Menu from "~/components/Menu.vue";
+import Menu from "~~/components/Navigation.vue";
 
 const { t } = useI18n({ useScope: 'local' })
 const localePath = useLocalePath();
-
-useServerSeoMeta({
-    title: t('metadata.title'),
-    ogTitle: t('metadata.ogTitle'),
-    description: t('metadata.description'),
-    ogDescription: t('metadata.ogDescription'),
-})
 </script>
 
 <template>
-    <DefaultLayout>
+    <NuxtLayout name="hero">
         <div class="flex md:items-center flex-col md:flex-row">
             <div class="flex flex-col">
                 <NuxtLink :to="localePath('/')" class="mb-4 md:mb-8 w-52 md:w-64 mx-auto md:ml-0">
@@ -42,7 +34,7 @@ useServerSeoMeta({
 
             <Menu class="mt-16 block md:hidden justify-center" />
         </div>
-    </DefaultLayout>
+    </NuxtLayout>
 </template>
 
 <style>
@@ -65,19 +57,9 @@ useServerSeoMeta({
 
 <i18n lang="yaml">
 en:
-    metadata.title: Short Cam - Camera Editor App
-    metadata.ogTitle: Short Cam - Camera Editor App
-    metadata.description: Capture, Play, Edit & Share Your Moments From The Same Place
-    metadata.ogDescription: Capture, Play, Edit & Share Your Moments From The Same Place
-    
     title: Capture, Play, Edit & Share
     subtitle: Your Moments From The Same Place
 fr:
-    metadata.title: Short Cam - Capture et édition vidéo
-    metadata.ogTitle: Short Cam - Capture et édition vidéo
-    metadata.description: Capture, Joue, Édite & Partage Tes Moments Depuis Le Même Endroit
-    metadata.ogDescription: Capture, Joue, Édite & Partage Tes Moments Depuis Le Même Endroit
-
     title: Capture, Joue, Édite & Partage
     subtitle: Tes Moments Depuis Le Même Endroit
 </i18n>

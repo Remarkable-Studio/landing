@@ -2,65 +2,63 @@
 const { t } = useI18n({ useScope: 'local' })
 const localePath = useLocalePath();
 
-useServerSeoMeta({
-  title: t('metadata.title'),
-  ogTitle: t('metadata.ogTitle'),
+definePageMeta({
+  title: "pages.privacy.title",
 })
 </script>
 
 <template>
-  <div class="container mx-auto max-w-3xl p-10">
+  <NuxtLayout>
+    <div class="container mx-auto max-w-3xl p-10">
 
-    <NuxtLink :to="localePath('/')">
-      <img src="../assets/img/logo_black.svg" alt="Logo Short Cam" class="mb-4 md:mb-8 w-52 md:w-64" />
-    </NuxtLink>
+      <NuxtLink :to="localePath('/')">
+        <img src="../assets/img/logo_black.svg" alt="Logo Short Cam" class="mb-4 md:mb-8 w-52 md:w-64" />
+      </NuxtLink>
 
-    <h1 class="text-3xl md:text-5xl font-display py-6">{{ t('title') }}</h1>
+      <h1 class="text-3xl md:text-5xl font-display py-6">{{ t('title') }}</h1>
 
-    <!-- Terms of Service -->
-    <h2 class="text-2xl md:text-3xl font-display py-4">{{ t('terms.title') }}</h2>
+      <!-- Terms of Service -->
+      <h2 class="text-2xl md:text-3xl font-display py-4">{{ t('terms.title') }}</h2>
 
-    <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.intro.title') }}</h3>
-    <p class="text-gray-600 py-1">{{ t('terms.intro.body') }}}</p>
+      <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.intro.title') }}</h3>
+      <p class="text-gray-600 py-1">{{ t('terms.intro.body') }}}</p>
 
-    <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.use.title') }}</h3>
-    <p class="text-gray-600 py-1">{{ t('terms.use.body') }}</p>
+      <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.use.title') }}</h3>
+      <p class="text-gray-600 py-1">{{ t('terms.use.body') }}</p>
 
-    <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.user.title') }}</h3>
-    <p class="text-gray-600 py-1">{{ t('terms.user.body') }}</p>
+      <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.user.title') }}</h3>
+      <p class="text-gray-600 py-1">{{ t('terms.user.body') }}</p>
 
-    <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.disclaimer.title') }}</h3>
-    <p class="text-gray-600 py-1">{{ t('terms.disclaimer.body') }}</p>
+      <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.disclaimer.title') }}</h3>
+      <p class="text-gray-600 py-1">{{ t('terms.disclaimer.body') }}</p>
 
-    <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.limitation.title') }}</h3>
-    <p class="text-gray-600 py-1">{{ t('terms.limitation.body') }}</p>
+      <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.limitation.title') }}</h3>
+      <p class="text-gray-600 py-1">{{ t('terms.limitation.body') }}</p>
 
-    <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.modification.title') }}</h3>
-    <p class="text-gray-600 py-1">{{ t('terms.modification.body') }}</p>
+      <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.modification.title') }}</h3>
+      <p class="text-gray-600 py-1">{{ t('terms.modification.body') }}</p>
 
-    <!-- Privacy Policy -->
-    <h2 class="text-2xl md:text-3xl font-display py-4">{{ t('privacy.title') }}</h2>
+      <!-- Privacy Policy -->
+      <h2 class="text-2xl md:text-3xl font-display py-4">{{ t('privacy.title') }}</h2>
 
-    <h3 class="text-lg font-body pt-3 pb-1">{{ t('privacy.intro.title') }}</h3>
-    <p class="text-gray-600 py-1">{{ t('privacy.intro.body') }}</p>
+      <h3 class="text-lg font-body pt-3 pb-1">{{ t('privacy.intro.title') }}</h3>
+      <p class="text-gray-600 py-1">{{ t('privacy.intro.body') }}</p>
 
-    <h3 class="text-lg font-body pt-3 pb-1">{{ t('privacy.collection.title') }}</h3>
-    <p class="text-gray-600 py-1">{{ t('privacy.collection.body') }}</p>
+      <h3 class="text-lg font-body pt-3 pb-1">{{ t('privacy.collection.title') }}</h3>
+      <p class="text-gray-600 py-1">{{ t('privacy.collection.body') }}</p>
 
-    <h3 class="text-lg font-body pt-3 pb-1">{{ t('privacy.sharing.title') }}</h3>
-    <p class="text-gray-600 py-1">{{ t('privacy.sharing.body') }}</p>
+      <h3 class="text-lg font-body pt-3 pb-1">{{ t('privacy.sharing.title') }}</h3>
+      <p class="text-gray-600 py-1">{{ t('privacy.sharing.body') }}</p>
 
 
-    <!-- UpdatedAt -->
-    <p class="text-gray-600 mt-16">{{ t('updatedat') }}</p>
-  </div>
+      <!-- UpdatedAt -->
+      <p class="text-gray-600 mt-16">{{ t('updatedat') }}</p>
+    </div>
+  </NuxtLayout>
 </template>
 
 <i18n lang="yaml">
 en:
-  metadata.title: Short Cam | Terms & Privacy
-  metadata.ogTitle: Short Cam | Terms & Privacy
-
   title: Terms & Privacy
 
   terms.title: Terms & Privacy
@@ -120,10 +118,8 @@ en:
     We will not share any information collected through the app with any third party.
 
   updatedat: "Last Updated: February 10, 2023."
-fr:
-  metadata.title: Short Cam | Conditions générales & Politique de confidentialité
-  metadata.ogTitle: Short Cam | Conditions générales & Politique de confidentialité
 
+fr:
   title: Conditions générales & Politique de confidentialité
 
   terms.title: Conditions générales
