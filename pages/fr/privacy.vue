@@ -8,12 +8,12 @@ const localePath = useLocalePath();
             <img src="../../assets/img/logo_black.svg" alt="Logo Short Cam" class="mb-4 md:mb-8 w-52 md:w-64" />
         </NuxtLink>
 
-        <h1 class="text-5xl font-display py-6">
+        <h1 class="text-3xl md:text-5xl font-display py-6">
             Conditions et confidentialité
         </h1>
 
         <!-- Terms -->
-        <h2 class="text-3xl font-display py-4">Conditions d'utilisation</h2>
+        <h2 class="text-2xl md:text-3xl font-display py-4">Conditions d'utilisation</h2>
 
         <h3 class="text-lg font-body pt-3 pb-1">Introduction</h3>
         <p class="text-gray-600 py-1">
@@ -81,7 +81,7 @@ const localePath = useLocalePath();
         </p>
 
         <!-- Privacy -->
-        <h2 class="text-3xl font-display py-4">Politique de confidentialité</h2>
+        <h2 class="text-2xl md:text-3xl font-display py-4">Politique de confidentialité</h2>
 
         <h3 class="text-lg font-body pt-3 pb-1">Introduction</h3>
         <p class="text-gray-600 py-1">
