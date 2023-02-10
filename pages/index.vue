@@ -2,6 +2,7 @@
 import DefaultLayout from "../layouts/DefaultLayout.vue";
 import Menu from "~/components/Menu.vue";
 
+const { t } = useI18n({ useScope: 'local' })
 const localePath = useLocalePath();
 
 useServerSeoMeta({
@@ -23,9 +24,9 @@ useServerSeoMeta({
                     <h1 class="text-3xl md:text-5xl xl:text-6xl font-black font-display my-8">
                         <span
                             class="w-full block text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-yellow-300">
-                            {{ $t("title1") }}
+                            {{ t("title") }}
                         </span>
-                        {{ $t("title2") }}
+                        {{ t("subtitle") }}
                     </h1>
                     <a href="/" target="_blank">
                         <img class="inline duration-500 hover:scale-110 hover:drop-shadow-2xl"
@@ -61,3 +62,12 @@ useServerSeoMeta({
     animation: appear 500ms ease-in-out;
 }
 </style>
+
+<i18n lang="yaml">
+en:
+    title: Capture, Play, Edit & Share
+    subtitle: Your Moments From The Same Place
+fr:
+    title: Capture, Joue, Édite & Partage
+    subtitle: Tes Moments Depuis Le Même Endroit
+</i18n>
