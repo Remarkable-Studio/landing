@@ -8,9 +8,9 @@ const localePath = useLocalePath();
 <template>
     <DefaultLayout>
         <div class="flex md:items-center flex-col md:flex-row">
-            <div>
-                <NuxtLink :to="localePath('/')" class="mb-8 md:mb-16">
-                    <img class="inline w-52 md:w-64" src="../assets/img/logo.svg" alt="Logo Short Cam" />
+            <div class="flex flex-col">
+                <NuxtLink :to="localePath('/')" class="mb-4 md:mb-8 w-52 md:w-64 mx-auto md:ml-0">
+                    <img src="../assets/img/logo.svg" alt="Logo Short Cam" />
                 </NuxtLink>
                 <div class="text-center md:text-left ">
                     <h1 class="text-3xl md:text-5xl xl:text-6xl font-black font-display my-8">
@@ -32,7 +32,7 @@ const localePath = useLocalePath();
                 <img id="app-img" class="animate-spin w-80 m-auto" src="../assets/img/app.png" alt="Short Cam App" />
             </div>
 
-            <Menu class="mt-16 block md:hidden" />
+            <Menu class="mt-16 block md:hidden justify-center" />
         </div>
     </DefaultLayout>
 </template>
