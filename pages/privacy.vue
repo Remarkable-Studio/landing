@@ -1,14 +1,20 @@
 <script setup>
 const { t } = useI18n({ useScope: 'local' })
+useServerSeoMeta({
+  title: 'Short Cam',
+  ogTitle: 'Short Cam',
+  description: 'Capture, Play, Edit & Share Your Moments From The Same Place',
+  ogDescription: 'Capture, Play, Edit & Share Your Moments From The Same Place',
+})
 </script>
 
 <template>
   <div class="container mx-auto max-w-3xl p-10">
     <a href="/"><img src="../assets/img/logo_black.svg" alt="Logo Short Cam" class="mb-4 md:mb-8 w-52 md:w-64" /></a>
-    <h1 class="text-5xl font-display py-6">{{ t('title') }}</h1>
+    <h1 class="text-3xl md:text-5xl font-display py-6">{{ t('title') }}</h1>
 
     <!-- Terms of Service -->
-    <h2 class="text-3xl font-display py-4">{{ t('terms.title') }}</h2>
+    <h2 class="text-2xl md:text-3xl font-display py-4">{{ t('terms.title') }}</h2>
 
     <h3 class="text-lg font-body pt-3 pb-1">{{ t('terms.intro.title') }}</h3>
     <p class="text-gray-600 py-1">{{ t('terms.intro.body') }}}</p>
@@ -29,7 +35,7 @@ const { t } = useI18n({ useScope: 'local' })
     <p class="text-gray-600 py-1">{{ t('terms.modification.body') }}</p>
 
     <!-- Privacy Policy -->
-    <h2 class="text-3xl font-display py-4">{{ t('privacy.title') }}</h2>
+    <h2 class="text-2xl md:text-3xl font-display py-4">{{ t('privacy.title') }}</h2>
 
     <h3 class="text-lg font-body pt-3 pb-1">{{ t('privacy.intro.title') }}</h3>
     <p class="text-gray-600 py-1">{{ t('privacy.intro.body') }}</p>
