@@ -20,7 +20,7 @@ const localePath = useLocalePath();
                         </span>
                         {{ t("subtitle") }}
                     </h1>
-                    <a href="/" target="_blank">
+                    <a :href='t("iosLink")' target="_blank">
                         <img class="inline duration-500 hover:scale-110 hover:drop-shadow-2xl"
                             src="../assets/img/apple_button_en.svg" alt="Download button" />
                     </a>
@@ -59,7 +59,9 @@ const localePath = useLocalePath();
 en:
     title: Capture, Play, Edit & Share
     subtitle: Your Stories From The Same Place
+    iosLink: https://apps.apple.com/us/app/short-cam/id1668634673
 fr:
     title: Capture, Joue, Édite & Partage
     subtitle: Tes Histoires Depuis Le Même Endroit
+    iosLink: https://apps.apple.com/fr/app/short-cam/id1668634673
 </i18n>
